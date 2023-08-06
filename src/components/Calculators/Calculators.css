@@ -1,0 +1,141 @@
+p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.outerContainer {
+  height: auto;
+  width: 300px;
+  background-color: white;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sssContainer {
+  width: 290px;
+  height: 100px;
+  margin-top: 10px;
+  background-color: #efeded;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-size: 16px;
+}
+.btnContainer {
+  height: 50px;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btnCalculator {
+  width: 100px;
+  height: 40px;
+  margin-top: 10px;
+  border: 2px solid #2d2570;
+  background-color: #ffb514;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 8px;
+  display: flex;
+  padding-top: 5px;
+  transition: transform 0.2s;
+}
+.btnCalculator:hover {
+  transform: scale(1.2);
+  background-color: #efeded;
+}
+.btnSSSCalculator {
+  margin-left: -25px;
+  text-align: center;
+}
+.btnPhilHealthCalculator {
+  margin-top: -40px;
+  margin-left: 75px;
+}
+.btnPagibigCalculator {
+  margin-top: -40px;
+  margin-left: 175px;
+}
+.result {
+  margin-top: 10px;
+  height: 30px;
+  width: 220px;
+  border: 1px solid #2d2570;
+  background-color: #ffffff;
+  margin-left: 20px;
+  padding-left: 5px;
+}
+.calculatorTable {
+  width: 100%;
+  margin-top: 20px;
+}
+.source {
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 30px;
+  margin-top: -10px;
+  margin-bottom: 50px;
+}
+.pagibigPic {
+  height: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  p {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+  }
+  .outerContainer {
+    width: 900px;
+    height: 400px;
+    margin-top: 80px;
+  }
+  .btnContainer {
+    height: 100px;
+    width: 100%;
+    margin-left: 300px;
+    margin-top: 30px;
+  }
+  .sssContainer {
+    width: 100%;
+    height: 80px;
+    margin-top: 20px;
+    align-items: center;
+    padding-top: 20px;
+  }
+  .btnCalculator {
+    width: 320px;
+    height: 80px;
+    margin-top: 20px;
+    font-size: 15px;
+    margin-left: -0px;
+    padding-top: 10px;
+    font-size: 20px;
+  }
+
+  .btnSSSCalculator {
+    margin-left: -300px;
+    padding-left: 15px;
+  }
+  .btnPhilHealthCalculator {
+    margin-top: -80px;
+  }
+  .btnPagibigCalculator {
+    margin-top: -80px;
+    margin-left: 300px;
+  }
+  .label {
+    text-align: center;
+  }
+  .labelCalculator {
+    margin-left: 200px;
+  }
+  .source {
+    margin-left: 550px;
+    margin-top: -40px;
+    margin-bottom: 100px;
+  }
+  .pagibigPic {
+    height: auto;
+  }
+}

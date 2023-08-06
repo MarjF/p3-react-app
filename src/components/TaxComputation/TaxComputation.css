@@ -1,0 +1,67 @@
+.taxComputationContainer {
+  height: 370px;
+  background-color: #efeded;
+  width: 295px;
+  background-color: #efeded;
+  padding-top: 10px;
+  padding-left: 5px;
+  border-radius: 5px;
+  border-left: none;
+  height: 130px;
+}
+.innerTitleLabel {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+}
+.labelIncomeTax {
+  margin-left: 10px;
+}
+.taxResult {
+  margin-left: 15px;
+  height: 20px;
+  width: 140px;
+  border: 1px solid #2d2570;
+  background-color: #ffffff;
+  padding-left: 5px;
+}
+.incomeTaxResult {
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.afterTaxResult {
+  margin-left: 2px;
+}
+.spaceTax1 {
+  height: 50px;
+}
+@media screen and (min-width: 768px) {
+  .taxComputationContainer {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    width: 100%;
+    height: 250px;
+    padding-left: 20px;
+  }
+  .labelIncomeTax {
+    margin-top: 20px;
+    display: flex;
+  }
+  .taxResult {
+    margin-left: 0px;
+    width: 200px;
+    height: 30px;
+    display: flex;
+  }
+  .spaceTax1 {
+    margin-top: 20px;
+  }
+  .incomeTaxResult {
+    margin-top: -25px;
+    margin-left: 150px;
+  }
+  .afterTaxResult {
+    margin-left: 150px;
+    margin-top: -25px;
+  }
+}

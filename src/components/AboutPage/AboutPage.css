@@ -1,0 +1,13 @@
+.aboutContent {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .aboutContent {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+  }
+}

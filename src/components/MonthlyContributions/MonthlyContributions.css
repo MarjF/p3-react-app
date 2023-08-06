@@ -1,0 +1,48 @@
+.totalContributionsContainer {
+  background-color: #efeded;
+  margin-top: 10px;
+  width: 295px;
+  height: 220px;
+  border-radius: 5px;
+  border-left: none;
+  padding-left: 10px;
+}
+.totalResult {
+  /* margin-left: 15px; */
+  height: 20px;
+  width: 140px;
+  border: 1px solid #2d2570;
+  background-color: #ffffff;
+  padding-left: 5px;
+}
+.sssResult {
+  margin-left: 105px;
+}
+.philhealthResult {
+  margin-left: 58px;
+}
+.pagibigResult {
+  margin-left: 60px;
+}
+.totalContributionsResult {
+  margin-left: 9px;
+}
+.space {
+  margin-top: 20px;
+}
+@media screen and (min-width: 768px) {
+  .totalContributionsContainer {
+    width: 100%;
+    height: 250px;
+    grid-column: 2/3;
+    grid-row: 4/5;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-left: 20px;
+  }
+  .totalResult {
+    /* margin-left: 200px; */
+    width: 200px;
+    height: 30px;
+  }
+}
